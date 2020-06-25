@@ -1,0 +1,14 @@
+/* allow members of the wheel group to execute the defined actions
+ * without password authentication
+ */
+polkit.addRule(function(action, subject) {
+    if ((action.id == "org.gnome.gparted" ||
+        action.id == "com.ubuntu.pkexec.gufw" ||
+        action.id == "org.manjaro.pamac.commit" ||
+        action.id == "org.manjaro.msm.kernel.install" ||
+        action.id == "org.manjaro.msm.kernel.remove") &&
+        subject.isInGroup("wheel"))
+    {
+        return polkit.Result.YES;
+    }
+});
