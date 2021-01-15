@@ -1,7 +1,7 @@
-/* path:       /home/klassiker/.local/share/repos/polkit-rules/99-nopasswd.rules
- * author:     klassiker [mrdotx]
- * github:     https://github.com/mrdotx/polkit-rules
- * date:       2020-12-01T21:53:46+0100
+/* path:   /home/klassiker/.local/share/repos/polkit-rules/99-nopasswd.rules
+ * author: klassiker [mrdotx]
+ * github: https://github.com/mrdotx/polkit-rules
+ * date:   2021-01-15T13:40:41+0100
  */
 
 /* allow members of the wheel group to execute the defined actions
