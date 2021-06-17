@@ -8,4 +8,4 @@ disable password for specific/all applications if user is in the wheel group
 
 ## installation
 
-- copy file 99-nopasswd.rules to /etc/polkit-1/rules.d
+- cp 99-nopasswd.rules /etc/polkit-1/rules.d/99-nopasswd.rules
