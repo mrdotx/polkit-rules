@@ -2,7 +2,7 @@
 
 disable password for specific/all applications if user is in the wheel group
 
-## folder of polkit actions that can be disabled
+## directory of polkit actions that can be disabled
 
 - /usr/share/polkit-1/actions
 
